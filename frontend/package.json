@@ -1,0 +1,125 @@
+{
+  "name": "lobbii",
+  "version": "2.0.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^34.2.0",
+    "@ckeditor/ckeditor5-react": "^5.0.2",
+    "@formkit/auto-animate": "^0.8.2",
+    "@heroicons/react": "v1",
+    "@iconscout/react-unicons": "^1.1.6",
+    "aos": "^2.3.4",
+    "apexcharts": "^3.35.3",
+    "apify-client": "^2.9.5",
+    "availity-reactstrap-validation": "^2.7.1",
+    "axios": "^1.7.5",
+    "bootstrap": "^5.1.3",
+    "browser-image-compression": "^2.0.2",
+    "classnames": "^2.3.1",
+    "dotenv": "^16.0.3",
+    "feather-icons-react": "^0.5.0",
+    "firebase": "10.0.0",
+    "formik": "^2.2.9",
+    "node-sass": "^7.0.1",
+    "npm": "^8.13.2",
+    "number-counter": "^1.0.3",
+    "react": "^18.2.0",
+    "react-background-slider": "^2.0.0",
+    "react-content-loader": "^6.2.1",
+    "react-countup": "^6.3.0",
+    "react-dom": "^18.2.0",
+    "react-drawer": "^1.3.4",
+    "react-dropzone": "^14.2.3",
+    "react-fade-in": "^2.0.1",
+    "react-flatpickr": "^3.10.13",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.8.0",
+    "react-image-lightbox": "^5.1.4",
+    "react-modal-video": "^1.2.9",
+    "react-parallax": "^3.5.1",
+    "react-player": "^2.10.1",
+    "react-responsive-masonry": "^2.1.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-scroll-up-button": "^1.6.4",
+    "react-scrollspy": "^3.4.3",
+    "react-select": "^5.7.4",
+    "react-slick": "^0.29.0",
+    "react-text-rotator": "^1.2.0",
+    "react-typist": "^2.0.5",
+    "reactstrap": "^9.1.1",
+    "recharts": "^2.7.1",
+    "serve": "^14.2.1",
+    "simplebar-react": "^2.4.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^8.3.1",
+    "tiny-slider": "^2.9.4",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.73.0",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "PORT=3006 react-scripts start",
+    "build": "react-scripts build --max_old_space_size=8000 build",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write \"**/*.{js,jsx,json,md,html,css,less,scss}\"",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "babelOptions": {
+      "presets": [
+        "@babel/preset-react"
+      ]
+    },
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+      "requireConfigFile": false,
+      "ecmaVersion": 2020,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "globals": {
+      "$": true
+    },
+    "settings": {
+      "react": {
+        "version": "^17.0.1"
+      }
+    },
+    "rules": {
+      "semi": [
+        "error",
+        "never"
+      ]
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-react": "^7.20.6",
+    "prettier": "^2.1.1"
+  }
+}

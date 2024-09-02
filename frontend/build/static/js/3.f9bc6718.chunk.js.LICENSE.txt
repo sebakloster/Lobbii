@@ -1,0 +1,18 @@
+/*
+      object-assign
+      (c) Sindre Sorhus
+      @license MIT
+      */
+
+/*!
+         * ReactDrawer
+         * Licensed under the MIT license
+         *
+         * Copyright (c) 2016 Tony Li
+         */
+
+/*!
+        Copyright (c) 2016 Jed Watson.
+        Licensed under the MIT License (MIT), see
+        http://jedwatson.github.io/classnames
+      */

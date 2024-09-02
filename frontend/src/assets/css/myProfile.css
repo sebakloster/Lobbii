@@ -1,0 +1,142 @@
+.my-profile-container p{
+    color: white
+}
+.my-profile-container h3{
+    color: white
+}
+.my-profile-container h5{
+    color: white
+}
+.my-profile-container i{
+    color: white
+}
+.my-profile-info{
+    /* background-color: rgb(251, 228, 114); */
+    display: flex;
+    align-items: center;
+}
+.info-avatar img{
+    margin: 2.5rem;
+    margin-top: 1rem;
+}
+.posts-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+.post {
+    perspective: 1000px; /* Adds perspective to the flip effect */
+  }
+.post img{
+    margin-top: -1.2rem;
+    border-radius: 22px;
+    height: 258px;
+    width: 386px;
+}
+.post-inner {
+    position: relative;
+    width: 386px; /* Adjust to match the image width */
+    height: 258px; /* Adjust to match the image height */
+    transition: transform 0.6s;
+    transform-style: preserve-3d; /* Allows the flip effect to work */
+  }
+  
+  .post:hover .post-inner {
+    transform: rotateY(180deg); /* Flip effect */
+  }
+  
+  .post-front,
+  .post-back {
+    position: absolute;
+    border-radius: 22px;
+    height: 258px;
+    width: 386px;
+    backface-visibility: hidden; /* Hides the back side when facing away */
+  }
+  
+  .post-back {
+    background-color: #28262d; /* Adjust background color as needed */
+    color: white;
+    margin-top: -1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: rotateY(180deg); /* Flips the back side */
+  }
+  
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0rem 1rem;
+    margin-bottom: 1rem;
+}
+.product-card{
+    background-color: #28262d;
+    height: 189px;
+    width: 282.94px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.product-details{
+    padding: 1rem;
+}
+.product-details p{
+    margin: 0;
+    font-size: 16px;
+}
+.product-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-icons i{
+    font-size: 1.2rem;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+    .image-container img {
+        object-fit: cover;
+        display: block;
+    }
+  
+  
+  .image-text {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 10px;   /* Adjust as needed */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .image-social{
+    position: absolute;
+    top: 0px; 
+    left: 15px;   
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+.posts-grid{
+    display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 1.5rem;
+    padding: 1rem;
+}

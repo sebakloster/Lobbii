@@ -1,0 +1,19 @@
+.login-section{
+    overflow: hidden;
+}
+
+.login-section{
+    background: #18171b;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-section .login-page{
+    background-color: #28262d;
+    border-radius: 5% !important;
+}
+
+.login-section  label{
+    color: white;
+}
+

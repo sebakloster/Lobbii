@@ -1,0 +1,19 @@
+.singup-container{
+    background-color: #18171b;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.singup-card{
+    background-color: #28262d;
+    border-radius: 5%;
+    margin-top: 15%;
+}
+
+.singup-card h4{
+    color: white;
+}
+.singup-card label{
+    color: white;
+}
